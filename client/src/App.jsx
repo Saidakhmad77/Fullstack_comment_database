@@ -4,8 +4,9 @@ function App() {
 
   return (
     <>
-    <h1>Comment</h1>
+    <div className="comment">
     <Comments></Comments>
+    </div>
     </>
   )
 }

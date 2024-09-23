@@ -1,12 +1,18 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS, cross_origin  #preventing CORS errors
+from flask_sqlalchemy import SQLAlchemy
 import sqlalchemy
 
 app = Flask(__name__)
+CORS(app)
 
 db = sqlalchemy.create_engine(
     "mariadb+pymysql://root:@localhost:3306/simpledb", echo=True
 )
+""" app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
+
+
+db = SQLAlchemy(app) """
 
 @app.route('/')
 def hello():
