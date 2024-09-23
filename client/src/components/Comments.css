@@ -1,0 +1,111 @@
+.comments-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .comments-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .comments-table th,
+  .comments-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .comments-table th {
+    background-color: #2c3e50;
+    color: #ffffff;
+  }
+  
+  .comments-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  
+  .comments-table tbody tr:hover {
+    background-color: #e2e2e2;
+  }
+  
+  .add-comment {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .add-comment input {
+    padding: 10px;
+    flex: 1;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .add-comment button {
+    padding: 10px 20px;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-comment button:hover {
+    background-color: #219150;
+  }
+  
+  button {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .edit-button {
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  .edit-button:hover {
+    background-color: #2980b9;
+  }
+  
+  .update-button {
+    background-color: #f39c12;
+    color: #fff;
+  }
+  
+  .update-button:hover {
+    background-color: #e67e22;
+  }
+  
+  .delete-button {
+    background-color: #e74c3c;
+    color: #fff;
+  }
+  
+  .delete-button:hover {
+    background-color: #c0392b;
+  }
+  
+  .add-button {
+    background-color: #27ae60;
+    color: white;
+  }
+  
+  .add-button:hover {
+    background-color: #219150;
+  }
+  
